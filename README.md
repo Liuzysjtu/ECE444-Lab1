@@ -1,12 +1,12 @@
 Liu Zeyuan
 
 Commit on rebase branch:
-git commit -a -m ¡°c1¡±
-git commit -a -m ¡°c2¡±
+git commit -a -m "c1"
+git commit -a -m "c2"
 
 Commit on develop branch:
-git commit -a -m ¡°c3¡±
-git commit -a -m ¡°c4¡±
+git commit -a -m "c3"
+git commit -a -m "c4"
 
 Commit on develop branch after rebasing:
 git checkout develop
@@ -14,7 +14,7 @@ git rebase rebase
 git add helloworld.py
 git rebase --continue
 git add helloworld.py
-git rebase ¨Ccontinue
+git rebase --continue
 
 final screenshot:
 
